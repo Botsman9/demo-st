@@ -37,24 +37,3 @@ button {
 .social-links .link:visited {
   color: rgb(20, 24, 20);
 }
-.ttt {
-  color: var(--brand-color);
-}
-
-:root {
-  --brand-color: #1b3aeb;
-}
-
-.alert {
-  --alert-text-color: black;
-  --alert-accent-color: tomato;
-}
-
-.alert-text {
-  --alert-text-color: blue;}
-  border: 1px solid var(--alert-accent-color);
-}
-
-.alert-icon {
-  background-color: var(--alert-accent-color);
-}
