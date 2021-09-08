@@ -386,8 +386,49 @@ span {
   height: 260px;
   left: 215px;
   top: 186px;
+  background: #ffffff;
 
-  border-radius: 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.title-img-igor {
+  position: absolute;
+  width: 151px;
+  height: 19px;
+  left: 275px;
+  top: 450px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.subtitle-img-igor {
+  position: absolute;
+  width: 130px;
+  height: 19px;
+  left: 285px;
+  top: 480px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 .img-olga {
@@ -405,7 +446,43 @@ span {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.title-img-olga {
+  position: absolute;
+  width: 109px;
+  height: 19px;
+  left: 596px;
+  top: 450px;
 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.subtitle-img-olga {
+  position: absolute;
+  width: 147px;
+  height: 19px;
+  left: 577px;
+  top: 480px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 .img-nik {
   position: absolute;
   width: 270px;
@@ -413,7 +490,46 @@ span {
   left: 815px;
   top: 186px;
 
-  border-radius: 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.title-img-nik {
+  position: absolute;
+  width: 137px;
+  height: 19px;
+  left: 882px;
+  top: 450px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.subtitle-img-nik {
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  left: 912px;
+  top: 480px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 .img-miha {
@@ -423,7 +539,45 @@ span {
   left: 1115px;
   top: 186px;
 
-  border-radius: 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.title-img-miha {
+  position: absolute;
+  width: 134px;
+  height: 19px;
+  left: 1183px;
+  top: 450px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.subtitle-img-miha {
+  position: absolute;
+  width: 87px;
+  height: 19px;
+  left: 1207px;
+  top: 480px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 
 .logo-footer {
@@ -457,7 +611,7 @@ span {
   width: 231px;
   height: 21px;
   left: 215px;
-  top: 111px;
+  top: 100px;
 
   font-family: Roboto;
   font-style: normal;
@@ -506,4 +660,106 @@ span {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+li {
+  list-style: none;
+}
+
+/*--Partfolio--*/
+.btn-oll {
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  left: 517px;
+  top: 180px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.btn-web {
+  position: absolute;
+  width: 84px;
+  height: 26px;
+  left: 598px;
+  top: 180px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.btn-soft {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  left: 734px;
+  top: 180px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.btn-diz {
+  position: absolute;
+  width: 59px;
+  height: 26px;
+  left: 887px;
+  top: 180px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.btn-marc {
+  position: absolute;
+  width: 86px;
+  height: 26px;
+  left: 998px;
+  top: 180px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
