@@ -141,6 +141,7 @@ button {
 .section-hero {
   text-align: center;
   background-color: var(--hero-color);
+  height: 600px;
 }
 
 h1 {
@@ -151,8 +152,7 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 200px;
-  padding: 0px;
+  padding-top: 200px;
 }
 
 .hero-button {
@@ -168,6 +168,10 @@ h1 {
 }
 
 /* Достоинства */
+
+.section-slogan {
+  margin-top: 94px;
+}
 
 .slogan-one > h3 {
   font-weight: 700;
@@ -231,6 +235,10 @@ h1 {
 
 /* Чем мы занимаемся */
 
+.skils {
+  margin-top: 94px;
+}
+
 .skils-title {
   font-size: 36px;
   line-height: 1.7;
@@ -242,6 +250,7 @@ h1 {
 
 .section-comand {
   background: #f5f4fa;
+  margin-top: 94px;
 }
 
 .comand-title {
@@ -292,6 +301,7 @@ h1 {
 
 footer {
   background: #2f303a;
+  margin-top: 10px;
 }
 
 .footer .logo {
@@ -338,7 +348,13 @@ footer > div > address p {
 .section-portfolio .title {
   color: var(--title-text-color);
 }
+
+.main {
+  margin-top: 94px;
+}
+
 /* секция кнопок */
+
 .btn-portfolio {
   font-weight: 500;
   font-size: 16px;
