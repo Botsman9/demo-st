@@ -47,6 +47,16 @@ a:hover {
 
 button {
   cursor: pointer;
+  border-color: transparent;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
 }
 
 /* цвет основного текста #757575 */
@@ -129,10 +139,7 @@ button {
 /* Герой */
 
 .section-hero {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  top: 80px;
+  text-align: center;
   background-color: var(--hero-color);
 }
 
@@ -144,13 +151,20 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 200px;
+  padding: 0px;
 }
 
-.section-hero > button {
+section > button {
   background-color: var(--accent-color);
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* Достоинства */
@@ -333,6 +347,8 @@ address {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .btn-portfolio:hover,
@@ -343,21 +359,29 @@ address {
 
 /* основной контент */
 
-.btn-all {
+/* кнопки */
+
+.btn-all > button {
+  min-width: 73px;
 }
 
-.btn-web {
+.btn-web > button {
+  min-width: 128px;
 }
 
-.btn-soft {
+.btn-soft > button {
+  min-width: 145px;
 }
 
-.btn-diz {
+.btn-diz > button {
+  min-width: 103px;
 }
 
-.btn-mrct {
+.btn-mrct > button {
+  min-width: 130px;
 }
 
+/* Галерея */
 .pic-tehno {
   background: #ffffff;
 }
